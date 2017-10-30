@@ -4,5 +4,4 @@ public class ModelBase
     public DateTime DateAdd { get; set; }
     public int Ative { get; set; }
     
-
 }
