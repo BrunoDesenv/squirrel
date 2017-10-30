@@ -2,7 +2,7 @@ internal static class UserRepository
 {
     private static List<User> CACHE;
 
-    public static List<Pessoa> Listar()
+    public static List<User> Listar()
     {
         if (CACHE != null) return CACHE;
 

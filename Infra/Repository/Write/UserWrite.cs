@@ -1,4 +1,4 @@
-public class User : IUser
+public class UserWrite : IUser
 {
     public User Inserir(User user)
     {
