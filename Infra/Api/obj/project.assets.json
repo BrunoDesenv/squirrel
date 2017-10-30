@@ -12533,23 +12533,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+    "C:\\Users\\Guilherme Murgel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos\\Squirrel\\Infra\\Api\\Web.csproj",
+      "projectUniqueName": "c:\\guimurgel\\squirrel\\Infra\\Api\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "c:\\Projetos\\Squirrel\\Infra\\Api\\Web.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos\\Squirrel\\Infra\\Api\\obj\\",
+      "projectPath": "c:\\guimurgel\\squirrel\\Infra\\Api\\Web.csproj",
+      "packagesPath": "C:\\Users\\Guilherme Murgel\\.nuget\\packages\\",
+      "outputPath": "c:\\guimurgel\\squirrel\\Infra\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Guilherme Murgel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
