@@ -664,23 +664,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+<<<<<<< HEAD
+    "C:\\Users\\aciole\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\Guilherme Murgel\\.nuget\\packages\\": {},
+>>>>>>> 3deff25163773ab2d3a370b81837fd251a16f510
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos\\Squirrel\\Infra\\Repository\\Repository.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "c:\\Projects\\squirrel\\Infra\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "c:\\Projetos\\Squirrel\\Infra\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos\\Squirrel\\Infra\\Repository\\obj\\",
+      "projectPath": "c:\\Projects\\squirrel\\Infra\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\aciole\\.nuget\\packages\\",
+      "outputPath": "c:\\Projects\\squirrel\\Infra\\Repository\\obj\\",
+=======
+      "projectUniqueName": "c:\\guimurgel\\squirrel\\Infra\\Repository\\Repository.csproj",
+      "projectName": "Repository",
+      "projectPath": "c:\\guimurgel\\squirrel\\Infra\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\Guilherme Murgel\\.nuget\\packages\\",
+      "outputPath": "c:\\guimurgel\\squirrel\\Infra\\Repository\\obj\\",
+>>>>>>> 3deff25163773ab2d3a370b81837fd251a16f510
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+<<<<<<< HEAD
+        "C:\\Users\\aciole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\Guilherme Murgel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 3deff25163773ab2d3a370b81837fd251a16f510
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
