@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+    "C:\\Users\\aciole\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos\\Squirrel\\Infra\\Repository\\Repository.csproj",
+      "projectUniqueName": "c:\\Projects\\squirrel\\Infra\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "c:\\Projetos\\Squirrel\\Infra\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos\\Squirrel\\Infra\\Repository\\obj\\",
+      "projectPath": "c:\\Projects\\squirrel\\Infra\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\aciole\\.nuget\\packages\\",
+      "outputPath": "c:\\Projects\\squirrel\\Infra\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aciole\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
