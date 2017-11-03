@@ -1,5 +1,8 @@
-public interface IUserWrite
+namespace Domain.Repositories.Write
 {
-    User Inserir(User pessoa);
-    User Atualizar(User pessoa);
+    public interface IUserWrite
+    {
+        User Inserir(User pessoa);
+        User Atualizar(User pessoa);
+    }
 }

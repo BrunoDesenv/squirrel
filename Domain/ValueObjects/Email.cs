@@ -1,13 +1,16 @@
-public class Email
+namespace Domain.ValueObjects
 {
-    public readonly string _email { get; set; }   
-
-    public Email(string email)
+    public class Email
     {
-        this._email = email;
-        //Cálculo mágico para validar EMAIL....
-    }
+        public readonly string _email { get; set; }   
 
-    public override string ToString()
-        => this._email;  
+        public Email(string email)
+        {
+            this._email = email;
+            //Cálculo mágico para validar EMAIL....
+        }
+
+        public override string ToString()
+            => this._email;  
+    }
 }

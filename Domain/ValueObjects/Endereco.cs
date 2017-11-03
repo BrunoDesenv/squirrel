@@ -1,33 +1,36 @@
-public class Endereco
+namespace Domain.ValueObjects
 {
-    public Guid Id { get; private set; }
-    public TipoEndereco Tipo { get; set; }
-    public string TipoLogradouro { get; set; }
-    public string Logradourdo { get; set; }
-    public string Numero { get; set; }
-    public string Complemento { get; set; }
-
-    public Endereco(Guid id, TipoEndereco tipo, string tipoLogradouro, string logradouro, string numero, string complemento = "")
+    public class Endereco
     {
-        this.Id = id;
-        this.Tipo = tipo;
-        this.TipoLogradouro = tipoLogradouro;
-        this.TipoLogradouro = logradouro;
-        this.Numero = numero;
-        this.Complemento = complemento;
-    }
+        public Guid Id { get; private set; }
+        public TipoEndereco Tipo { get; set; }
+        public string TipoLogradouro { get; set; }
+        public string Logradourdo { get; set; }
+        public string Numero { get; set; }
+        public string Complemento { get; set; }
 
-    public Endereco(TipoEndereco tipo, string tipoLogradouro, string logradouro, string numero, string complemento = "")
-            : this(Guid.NewGuid(), tipo, tipoLogradouro, logradouro, numero, complemento)
-    {
-    }
+        public Endereco(Guid id, TipoEndereco tipo, string tipoLogradouro, string logradouro, string numero, string complemento = "")
+        {
+            this.Id = id;
+            this.Tipo = tipo;
+            this.TipoLogradouro = tipoLogradouro;
+            this.TipoLogradouro = logradouro;
+            this.Numero = numero;
+            this.Complemento = complemento;
+        }
 
-    public override string ToString()
-            => $"{this.Tipo}: {this.TipoLogradouro} {this.Logradouro} número {this.Numero}";
+        public Endereco(TipoEndereco tipo, string tipoLogradouro, string logradouro, string numero, string complemento = "")
+                : this(Guid.NewGuid(), tipo, tipoLogradouro, logradouro, numero, complemento)
+        {
+        }
 
-    public enum TipoEndereco
-    {
-        Residencial,
-        Comercial
+        public override string ToString()
+                => $"{this.Tipo}: {this.TipoLogradouro} {this.Logradouro} número {this.Numero}";
+
+        public enum TipoEndereco
+        {
+            Residencial,
+            Comercial
+        }
     }
 }

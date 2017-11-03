@@ -1,14 +1,17 @@
-public class UserWrite : IUser
+namespace Repository.Write
 {
-    public User Inserir(User user)
+    public class UserWrite : IUser
     {
-        Cache.Repositorio.Inserir(user);
-        return user;
-    }
+        public User Inserir(User user)
+        {
+            Cache.Repositorio.Inserir(user);
+            return user;
+        }
 
-    public User Atualizar(User user)
-    {
-        Cache.Repositorio.Atualizar(user);
-        return user;
+        public User Atualizar(User user)
+        {
+            Cache.Repositorio.Atualizar(user);
+            return user;
+        }
     }
 }

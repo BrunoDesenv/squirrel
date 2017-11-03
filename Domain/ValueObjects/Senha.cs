@@ -1,4 +1,4 @@
-public class Senha
+namespace Domain.ValueObjects
 {
     private readonly string _senha;
     public Senha(string senha)

@@ -1,13 +1,15 @@
-public class CPF
+namespace Domain.ValueObjects
 {
-    private readonly string _cpf;
-    public CPF(string cpf)
+    public class CPF
     {
-        this._cpf = cpf;
-            //Cálculo para validar CPF....
+        private readonly string _cpf;
+        public CPF(string cpf)
+        {
+            this._cpf = cpf;
+                //Cálculo para validar CPF....
+        }
+
+        public override string ToString()
+            => this._cpf;
     }
-
-    public override string ToString()
-        => this._cpf;
-
 }

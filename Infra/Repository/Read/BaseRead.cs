@@ -1,19 +1,21 @@
-public class BaseRead<TEntity> : IDisposable, IBaseRepository<TEntity> where TEntity : class
+namespace Repository.Read
 {
-   protected ExemploContext Db = new ExemploContext();
-
-
-    MongoClient _client;
-    MongoServer _server;
-    MongoDatabase _db;
-
-    public DataAccess()
+    public class BaseRead<TEntity> : IDisposable, IBaseRepository<TEntity> where TEntity : class
     {
-        _client = new MongoClient("mongodb://localhost:27017");
-        _server = _client.GetServer();
-        _db = _server.GetDatabase("EmployeeDB");      
-    }
- 
+        protected ExemploContext Db = new ExemploContext();
+
+
+        MongoClient _client;
+        MongoServer _server;
+        MongoDatabase _db;
+
+        public DataAccess()
+        {
+            _client = new MongoClient("mongodb://squirrel:tntRd4R6pX6i4HN1PCE1hGcUgkFViR5UGpyG8DABh1BZUpOlufj8lkGVCETHKdG3zgoHhnJ9EGRBVJws6rf0hg==@squirrel.documents.azure.com:10255/?ssl=true&replicaSet=globaldb");
+            _server = _client.GetServer();
+            _db = _server.GetDatabase("EmployeeDB");      
+        }
+    
         public void Add(TEntity obj)
         { 
             Db.Set<TEntity>().Add(obj);
@@ -46,4 +48,5 @@ public class BaseRead<TEntity> : IDisposable, IBaseRepository<TEntity> where TEn
             throw new NotImplementedException();
         }
 
+    }
 }

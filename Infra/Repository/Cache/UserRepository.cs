@@ -1,30 +1,33 @@
-internal static class UserRepository
+namespace Repository.Cache
 {
-    private static List<User> CACHE;
-
-    public static List<User> Listar()
+    internal static class UserRepository
     {
-        if (CACHE != null) return CACHE;
+        private static List<User> CACHE;
 
-        CACHE = new List<User>();
+        public static List<User> Listar()
+        {
+            if (CACHE != null) return CACHE;
 
-        //Logica para retornar da base
+            CACHE = new List<User>();
+
+            //Logica para retornar da base
+        }
+        public static void Inserir(User user)
+        {
+            if (CACHE == null) Listar();
+
+            CACHE.Add(user);
+        }
+
+        public static void Atualizar(User user)
+        {
+            if (CACHE == null) Listar();
+
+            var userExists = CACHE.FirstOrDefault(p => p.Id.Equals(user.Id));
+            CACHE.Remove(userExists);
+
+            Inserir(user);
+        }
+
     }
-    public static void Inserir(User user)
-    {
-        if (CACHE == null) Listar();
-
-        CACHE.Add(user);
-    }
-
-    public static void Atualizar(User user)
-    {
-        if (CACHE == null) Listar();
-
-        var userExists = CACHE.FirstOrDefault(p => p.Id.Equals(user.Id));
-        CACHE.Remove(userExists);
-
-        Inserir(user);
-    }
-
 }

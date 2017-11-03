@@ -1,5 +1,8 @@
-public interface IUserRead
+namespace Domain.Repositories.Read
 {
-    IReadOnlyCollection<User> Listar();
-    User ObterPorId(Guid id);
+    public interface IUserRead
+    {
+        IReadOnlyCollection<User> Listar();
+        User ObterPorId(Guid id);
+    }
 }

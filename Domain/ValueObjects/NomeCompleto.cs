@@ -1,14 +1,17 @@
-public class NomeCompleto
+namespace Domain.ValueObjects
 {
-    public string Nome { get; set; }       
-    public string SobreNome { get; set; }
-
-    public NomeCompleto(string nome, string sobrenome)
+    public class NomeCompleto
     {
-        this.Nome = nome;
-        this.Sobrenome = sobrenome;
-    }
+        public string Nome { get; set; }       
+        public string SobreNome { get; set; }
 
-    public override string ToString() 
-            => $"{this.Nome} {this.Sobrenome}".TrimEnd();
+        public NomeCompleto(string nome, string sobrenome)
+        {
+            this.Nome = nome;
+            this.Sobrenome = sobrenome;
+        }
+
+        public override string ToString() 
+                => $"{this.Nome} {this.Sobrenome}".TrimEnd();
+    }
 }
