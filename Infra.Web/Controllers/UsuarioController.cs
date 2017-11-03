@@ -1,41 +1,41 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Web.Controllers
+namespace Infra.Web.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class UsuarioController : Controller
     {
-        // GET api/values
+        // GET api/Usuario
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        // GET api/Usuario/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/values
+        // POST api/Usuario
         [HttpPost]
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT api/values/5
+        // PUT api/Usuario/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE api/values/5
+        // DELETE api/Usuario/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
