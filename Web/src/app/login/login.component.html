@@ -1,0 +1,6 @@
+<div class="login-page">
+  <div class="form">
+    <app-login-form *ngIf="!loginService.eNovoUsuario()"></app-login-form>
+    <app-login-new *ngIf="loginService.eNovoUsuario()"></app-login-new>
+  </div>
+</div>
