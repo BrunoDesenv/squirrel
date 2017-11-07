@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using Domain.ValueObjects;
+
 namespace Domain.Model
 {
     public class User : ModelBase
@@ -10,7 +14,7 @@ namespace Domain.Model
         private List<Endereco> _enderecos;
         public IReadOnlyCollection<Endereco> Enderecos => _enderecos;
 
-        public Pessoa(Guid id, NomeCompleto nome, CPF cpf, Email email)
+        public User(Guid id, NomeCompleto nome, CPF cpf, Email email)
         {
             this.Id = id;
             this.Nome = nome;

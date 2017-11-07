@@ -1,16 +1,19 @@
+using Domain.Model;
+using Domain.Repositories.Write;
+
 namespace Repository.Write
 {
-    public class UserWrite : IUser
+    public class UserWrite : IUserWrite
     {
         public User Inserir(User user)
         {
-            Cache.Repositorio.Inserir(user);
+            Inserir(user);
             return user;
         }
 
         public User Atualizar(User user)
         {
-            Cache.Repositorio.Atualizar(user);
+            Atualizar(user);
             return user;
         }
     }

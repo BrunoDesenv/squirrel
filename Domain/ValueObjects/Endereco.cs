@@ -1,3 +1,5 @@
+using System;
+
 namespace Domain.ValueObjects
 {
     public class Endereco
@@ -5,7 +7,7 @@ namespace Domain.ValueObjects
         public Guid Id { get; private set; }
         public TipoEndereco Tipo { get; set; }
         public string TipoLogradouro { get; set; }
-        public string Logradourdo { get; set; }
+        public string Logradouro { get; set; }
         public string Numero { get; set; }
         public string Complemento { get; set; }
 

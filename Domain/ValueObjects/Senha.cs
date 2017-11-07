@@ -1,12 +1,16 @@
 namespace Domain.ValueObjects
 {
-    private readonly string _senha;
-    public Senha(string senha)
+    public class Senha
     {
-        this._senha = senha;
-            //Cálculo para validar CPF....
-    }
+        private readonly string _senha;
+    
+        public Senha(string senha)
+        {
+            this._senha = senha;
+                //Cálculo para validar CPF....
+        }
 
-    public override string ToString()
-        => this._senha;
+        public override string ToString()
+            => this._senha;
+    }
 }

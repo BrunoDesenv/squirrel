@@ -1,0 +1,3 @@
+C:\Projects\squirrel\Infra\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\Projects\squirrel\Infra\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\Projects\squirrel\Infra\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs

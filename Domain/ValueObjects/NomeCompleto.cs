@@ -8,10 +8,10 @@ namespace Domain.ValueObjects
         public NomeCompleto(string nome, string sobrenome)
         {
             this.Nome = nome;
-            this.Sobrenome = sobrenome;
+            this.SobreNome = sobrenome;
         }
 
         public override string ToString() 
-                => $"{this.Nome} {this.Sobrenome}".TrimEnd();
+                => $"{this.Nome} {this.SobreNome}".TrimEnd();
     }
 }
