@@ -1,6 +1,10 @@
+using System.Collections.Generic;
+using System.Linq;
+using Domain.Model;
+
 namespace Repository.Cache
 {
-    internal static class UserRepository
+    internal static class UserCache
     {
         private static List<User> CACHE;
 
@@ -11,6 +15,7 @@ namespace Repository.Cache
             CACHE = new List<User>();
 
             //Logica para retornar da base
+            return CACHE;
         }
         public static void Inserir(User user)
         {

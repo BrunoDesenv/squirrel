@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="1.6.0" />
+    <PackageReference Include="MongoDB.Driver" version="2.4.4" />
+    <PackageReference Include="MongoDB.Driver.Core" version="2.4.4" />
+    <PackageReference Include="MongoDB.Bson" version="2.4.4" />
   </ItemGroup>
 
   <ItemGroup>

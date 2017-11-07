@@ -2,7 +2,7 @@ namespace Domain.ValueObjects
 {
     public class Email
     {
-        public readonly string _email { get; set; }   
+        public string _email { get; set; }   
 
         public Email(string email)
         {

@@ -1,0 +1,12 @@
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Infra.Web.deps.json
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Infra.Web.runtimeconfig.json
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Infra.Web.runtimeconfig.dev.json
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Infra.Web.dll
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Infra.Web.pdb
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Domain.dll
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Domain.pdb
+C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.csproj.CoreCompileInputs.cache
+C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.AssemblyInfoInputs.cache
+C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.AssemblyInfo.cs
+C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.dll
+C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.pdb
