@@ -5562,7 +5562,8 @@
       "MongoDB.Bson >= 2.4.4",
       "MongoDB.Driver >= 2.4.4",
       "MongoDB.Driver.Core >= 2.4.4",
-      "NETStandard.Library >= 2.0.0"
+      "NETStandard.Library >= 2.0.0",
+      "newtonsoft.json >= 10.0.3"
     ]
   },
   "packageFolders": {
@@ -5629,6 +5630,10 @@
           "MongoDB.Bson": {
             "target": "Package",
             "version": "2.4.4"
+          },
+          "newtonsoft.json": {
+            "target": "Package",
+            "version": "10.0.3"
           }
         },
         "imports": [

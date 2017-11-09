@@ -5052,7 +5052,8 @@
           "Microsoft.Azure.DocumentDB.Core": "1.6.0",
           "MongoDB.Bson": "2.4.4",
           "MongoDB.Driver": "2.4.4",
-          "MongoDB.Driver.Core": "2.4.4"
+          "MongoDB.Driver.Core": "2.4.4",
+          "newtonsoft.json": "10.0.3"
         },
         "compile": {
           "bin/placeholder/Repository.dll": {}

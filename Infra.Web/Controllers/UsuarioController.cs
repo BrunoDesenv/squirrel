@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Domain.Model;
 using Domain.Repositories.Read;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +11,18 @@ namespace Infra.Web.Controllers
     [Route("api/[controller]")]
     public class UsuarioController : Controller
     {
-            public IUserRead read;
+        private readonly IUserRead _read;
+
+        public UsuarioController(IUserRead read)
+        {
+            _read = read;
+        }
         // GET api/Usuario
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<User> Get()
         {
-            var lista = read.Teste().ToString();
-            return new string[] { lista };
+            var lista = _read.Teste();
+            return lista;
         }
 
         // GET api/Usuario/5

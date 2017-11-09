@@ -10,3 +10,5 @@ C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.AssemblyInfoInp
 C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.AssemblyInfo.cs
 C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.dll
 C:\Projects\squirrel\Infra.Web\obj\Debug\netcoreapp2.0\Infra.Web.pdb
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Repository.dll
+C:\Projects\squirrel\Infra.Web\bin\Debug\netcoreapp2.0\Repository.pdb

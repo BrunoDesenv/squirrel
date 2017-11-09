@@ -9,6 +9,6 @@ namespace Domain.Repositories.Read
         IReadOnlyCollection<User> Listar();
         User ObterPorId(Guid id);
 
-        IEnumerable<string> Teste();
+        List<User> Teste();
     }
 }
