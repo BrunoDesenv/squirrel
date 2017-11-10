@@ -4,11 +4,7 @@ using Domain.Model;
 
 namespace Domain.Repositories.Read
 {
-    public interface IUserRead
+    public interface IUserRead: IBaseRead<User>
     {
-        IReadOnlyCollection<User> Listar();
-        User ObterPorId(Guid id);
-
-        List<User> Teste();
     }
 }

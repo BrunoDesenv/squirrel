@@ -11,7 +11,7 @@
        "preLaunchTask": "build",
        "program": "${workspaceRoot}/Infra.Web/bin/Debug/netcoreapp2.0/Infra.Web.dll",
        "args": [],
-       "cwd": "${workspaceRoot}",
+       "cwd": "${workspaceRoot}/Infra.Web",
        "stopAtEntry": false,
        "launchBrowser": {
            "enabled": true,

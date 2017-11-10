@@ -3,18 +3,11 @@ using Domain.Repositories.Write;
 
 namespace Repository.Write
 {
-    public class UserWrite : IUserWrite
+    public class UserWrite : BaseWrite<User>, IUserWrite
     {
-        public User Inserir(User user)
+        private const string COLLECTION_NAME = "User";
+        public UserWrite(string collectionName = COLLECTION_NAME) : base(collectionName)
         {
-            Inserir(user);
-            return user;
-        }
-
-        public User Atualizar(User user)
-        {
-            Atualizar(user);
-            return user;
         }
     }
 }

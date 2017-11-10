@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Infra.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Infra.Web.Controllers.UsuarioController.Get">
+            <summary>
+            List all Users.
+            </summary>
+        </member>
+        <member name="M:Infra.Web.Controllers.UsuarioController.Get(System.Guid)">
+            <summary>
+            Lista User by id
+            </summary>
+            <param name="id">id type GUID (required).</param>
+        </member>
+        <member name="M:Infra.Web.Controllers.UsuarioController.Post(Domain.Model.User)">
+             <summary>
+             Creates a User.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /User
+                 {
+                 }
+            
+             </remarks>
+             <param name="user"></param>
+             <returns>A newly-created User</returns>
+             <response code="201">Returns the newly-created User</response>
+             <response code="400">If the User is null</response>           
+        </member>
+        <member name="M:Infra.Web.Controllers.UsuarioController.Delete(System.Guid)">
+            <summary>
+            Deletes a specific User.
+            </summary>
+            <param name="id"> Id Type GUID</param>    
+        </member>
+    </members>
+</doc>

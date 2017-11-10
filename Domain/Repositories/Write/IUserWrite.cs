@@ -2,9 +2,7 @@ using Domain.Model;
 
 namespace Domain.Repositories.Write
 {
-    public interface IUserWrite
+    public interface IUserWrite : IBaseWrite<User>
     {
-        User Inserir(User pessoa);
-        User Atualizar(User pessoa);
     }
 }

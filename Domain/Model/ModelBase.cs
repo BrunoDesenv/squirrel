@@ -2,7 +2,7 @@ using System;
 
 namespace Domain.Model
 {
-    public class ModelBase
+    public abstract class ModelBase
     {
         public Guid Id { get; set; }
         public DateTime DateAdd { get; set; }
